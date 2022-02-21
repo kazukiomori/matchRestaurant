@@ -3,31 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B17F2C027B8E2CC005C6E7A /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B17F2BF27B8E2CC005C6E7A /* ShopViewModel.swift */; };
+		3B17F2C227B8E370005C6E7A /* HotpepperAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B17F2C127B8E370005C6E7A /* HotpepperAPI.swift */; };
+		3B17F2C427BAA3FD005C6E7A /* ShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B17F2C327BAA3FC005C6E7A /* ShopTableViewCell.swift */; };
+		3B17F2C627BE8388005C6E7A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B17F2C527BE8387005C6E7A /* CoreLocation.framework */; };
+		3BCAE31227B55428002F1906 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCAE31127B55428002F1906 /* MapViewController.swift */; };
+		3BCAE31427B55605002F1906 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCAE31327B55605002F1906 /* HomeViewController.swift */; };
+		3BCAE31627B55656002F1906 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCAE31527B55656002F1906 /* FavoritesViewController.swift */; };
 		3BEE5C022799B3FD00204159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE5C012799B3FD00204159 /* AppDelegate.swift */; };
 		3BEE5C042799B3FD00204159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE5C032799B3FD00204159 /* SceneDelegate.swift */; };
-		3BEE5C062799B3FD00204159 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE5C052799B3FD00204159 /* homeViewController.swift */; };
+		3BEE5C062799B3FD00204159 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE5C052799B3FD00204159 /* ViewController.swift */; };
 		3BEE5C092799B3FD00204159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEE5C072799B3FD00204159 /* Main.storyboard */; };
 		3BEE5C0B2799B3FE00204159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEE5C0A2799B3FE00204159 /* Assets.xcassets */; };
 		3BEE5C0E2799B3FE00204159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEE5C0C2799B3FE00204159 /* LaunchScreen.storyboard */; };
-		3BEE5C16279EBC8800204159 /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE5C15279EBC8800204159 /* searchViewController.swift */; };
-		3BEE5C19279EBCD500204159 /* favoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE5C18279EBCD500204159 /* favoriteViewController.swift */; };
+		3BEE5C1B27A0269200204159 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE5C1A27A0269200204159 /* SearchViewController.swift */; };
+		3BEE5C2227A1724700204159 /* ShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE5C2127A1724700204159 /* ShopModel.swift */; };
+		72D04718BAF7FDEF66AE989D /* Pods_matchRestaurant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645B20ADCC9D01A2EBA68EFE /* Pods_matchRestaurant.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B17F2BF27B8E2CC005C6E7A /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		3B17F2C127B8E370005C6E7A /* HotpepperAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotpepperAPI.swift; sourceTree = "<group>"; };
+		3B17F2C327BAA3FC005C6E7A /* ShopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableViewCell.swift; sourceTree = "<group>"; };
+		3B17F2C527BE8387005C6E7A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3BCAE31127B55428002F1906 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3BCAE31327B55605002F1906 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3BCAE31527B55656002F1906 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		3BEE5BFE2799B3FD00204159 /* matchRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matchRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEE5C012799B3FD00204159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BEE5C032799B3FD00204159 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3BEE5C052799B3FD00204159 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		3BEE5C052799B3FD00204159 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BEE5C082799B3FD00204159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BEE5C0A2799B3FE00204159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BEE5C0D2799B3FE00204159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BEE5C0F2799B3FE00204159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BEE5C15279EBC8800204159 /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
-		3BEE5C18279EBCD500204159 /* favoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteViewController.swift; sourceTree = "<group>"; };
+		3BEE5C1A27A0269200204159 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3BEE5C2127A1724700204159 /* ShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopModel.swift; sourceTree = "<group>"; };
+		49B416A7305C3847377C73B9 /* Pods-matchRestaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-matchRestaurant.debug.xcconfig"; path = "Target Support Files/Pods-matchRestaurant/Pods-matchRestaurant.debug.xcconfig"; sourceTree = "<group>"; };
+		645B20ADCC9D01A2EBA68EFE /* Pods_matchRestaurant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_matchRestaurant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6882D9736D915C9ADB4CE698 /* Pods-matchRestaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-matchRestaurant.release.xcconfig"; path = "Target Support Files/Pods-matchRestaurant/Pods-matchRestaurant.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B17F2C627BE8388005C6E7A /* CoreLocation.framework in Frameworks */,
+				72D04718BAF7FDEF66AE989D /* Pods_matchRestaurant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B17F2BE27B8E26C005C6E7A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B17F2BF27B8E2CC005C6E7A /* ShopViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		3BEE5BF52799B3FD00204159 = {
 			isa = PBXGroup;
 			children = (
 				3BEE5C002799B3FD00204159 /* matchRestaurant */,
 				3BEE5BFF2799B3FD00204159 /* Products */,
+				FE7CB073B03B3FEF7F059504 /* Pods */,
+				F9B9254D22593D4A9E612A55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,13 +90,16 @@
 		3BEE5C002799B3FD00204159 /* matchRestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				3B17F2BE27B8E26C005C6E7A /* ViewModel */,
 				3BEE5C012799B3FD00204159 /* AppDelegate.swift */,
 				3BEE5C032799B3FD00204159 /* SceneDelegate.swift */,
+				3BEE5C2027A1721D00204159 /* Model */,
 				3BEE5C17279EBC9900204159 /* ViewController */,
 				3BEE5C072799B3FD00204159 /* Main.storyboard */,
 				3BEE5C0A2799B3FE00204159 /* Assets.xcassets */,
 				3BEE5C0C2799B3FE00204159 /* LaunchScreen.storyboard */,
 				3BEE5C0F2799B3FE00204159 /* Info.plist */,
+				3B17F2C327BAA3FC005C6E7A /* ShopTableViewCell.swift */,
 			);
 			path = matchRestaurant;
 			sourceTree = "<group>";
@@ -74,11 +107,40 @@
 		3BEE5C17279EBC9900204159 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3BEE5C15279EBC8800204159 /* searchViewController.swift */,
-				3BEE5C052799B3FD00204159 /* homeViewController.swift */,
-				3BEE5C18279EBCD500204159 /* favoriteViewController.swift */,
+				3BEE5C052799B3FD00204159 /* ViewController.swift */,
+				3BEE5C1A27A0269200204159 /* SearchViewController.swift */,
+				3BCAE31127B55428002F1906 /* MapViewController.swift */,
+				3BCAE31527B55656002F1906 /* FavoritesViewController.swift */,
+				3BCAE31327B55605002F1906 /* HomeViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3BEE5C2027A1721D00204159 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BEE5C2127A1724700204159 /* ShopModel.swift */,
+				3B17F2C127B8E370005C6E7A /* HotpepperAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9B9254D22593D4A9E612A55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B17F2C527BE8387005C6E7A /* CoreLocation.framework */,
+				645B20ADCC9D01A2EBA68EFE /* Pods_matchRestaurant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE7CB073B03B3FEF7F059504 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49B416A7305C3847377C73B9 /* Pods-matchRestaurant.debug.xcconfig */,
+				6882D9736D915C9ADB4CE698 /* Pods-matchRestaurant.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BEE5C122799B3FE00204159 /* Build configuration list for PBXNativeTarget "matchRestaurant" */;
 			buildPhases = (
+				C33C2FF11BAB7157EF858A39 /* [CP] Check Pods Manifest.lock */,
 				3BEE5BFA2799B3FD00204159 /* Sources */,
 				3BEE5BFB2799B3FD00204159 /* Frameworks */,
 				3BEE5BFC2799B3FD00204159 /* Resources */,
+				8720D5CDC3ED0E577233414A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,16 +210,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8720D5CDC3ED0E577233414A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-matchRestaurant/Pods-matchRestaurant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-matchRestaurant/Pods-matchRestaurant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-matchRestaurant/Pods-matchRestaurant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C33C2FF11BAB7157EF858A39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-matchRestaurant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BEE5BFA2799B3FD00204159 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BEE5C062799B3FD00204159 /* homeViewController.swift in Sources */,
+				3B17F2C027B8E2CC005C6E7A /* ShopViewModel.swift in Sources */,
+				3BEE5C2227A1724700204159 /* ShopModel.swift in Sources */,
+				3BEE5C062799B3FD00204159 /* ViewController.swift in Sources */,
+				3B17F2C427BAA3FD005C6E7A /* ShopTableViewCell.swift in Sources */,
+				3BCAE31627B55656002F1906 /* FavoritesViewController.swift in Sources */,
 				3BEE5C022799B3FD00204159 /* AppDelegate.swift in Sources */,
-				3BEE5C19279EBCD500204159 /* favoriteViewController.swift in Sources */,
-				3BEE5C16279EBC8800204159 /* searchViewController.swift in Sources */,
+				3BEE5C1B27A0269200204159 /* SearchViewController.swift in Sources */,
 				3BEE5C042799B3FD00204159 /* SceneDelegate.swift in Sources */,
+				3BCAE31427B55605002F1906 /* HomeViewController.swift in Sources */,
+				3B17F2C227B8E370005C6E7A /* HotpepperAPI.swift in Sources */,
+				3BCAE31227B55428002F1906 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +411,7 @@
 		};
 		3BEE5C132799B3FE00204159 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B416A7305C3847377C73B9 /* Pods-matchRestaurant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,6 +430,7 @@
 		};
 		3BEE5C142799B3FE00204159 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6882D9736D915C9ADB4CE698 /* Pods-matchRestaurant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
